@@ -1,0 +1,344 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body{
+    background-color: #94a97a;
+    font-size: 1.3rem;
+}
+
+.menu {
+    background-color: #697e48;
+    overflow: hidden;
+    box-shadow: 10px 20px 10px 0 rgba(0,0,0, 0.15);
+}
+
+.menu a{
+    float: left;
+    color: #000000;
+    padding: 10px 20px;
+    font-size: 1.4rem;
+    transition: all 0.5s;
+    display: none;
+}
+
+.menu a:hover {
+    color: #faf7f7;
+    cursor: pointer;
+}
+
+.menu a.active {
+    color: #faf7f7;
+    display: block;
+}
+
+.menu .icon{
+    display: block;
+    float: left;
+}
+
+.menu.mobile{
+    position: relative;
+}
+.menu.mobile a.icon {
+    float: left;
+}
+
+.menu.mobile a {
+    float: none;
+    display: block;
+    text-align: left;
+}
+
+
+header .logo{
+    display: flex;
+    align-items: center;
+    float: right;
+    transition: all 0.5s;
+    position: absolute;
+    right: 3%;
+    padding: 10px;
+}
+
+header .logo:hover{
+    opacity:50%;
+}
+
+footer{
+    text-align: center;
+    padding: 3px;
+    background-color: #697e48;
+    font-size: 1rem;
+    color: #050505;
+}
+.main_wydarzenia{
+    display:flex;
+    flex-wrap:wrap;
+    width: 90%;
+    margin: 10px auto 50px;
+    text-align: center;
+
+}
+
+.info{
+    background-color: #61793b;
+    margin: 10px;
+    justify-content: center;
+    display:flex;
+    flex-wrap:wrap;
+    flex:1 1 30rem;
+    font-size:1.2rem;
+    letter-spacing: 1px;
+    padding: 5px;
+    box-shadow: 0 5px 10px 0 rgba(0,0,0, 0.8);
+}
+
+.info h3{
+    font-style:italic;
+}
+
+.main{
+    width: 90%;
+    margin: 20px auto 50px;
+    text-align: center;
+}
+
+.image{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.image img{
+    width: 60%;
+    box-shadow: 0px 5px 10px 0 rgba(0,0,0, 0.8);
+}
+
+.click1{
+    display: flex;
+    justify-content: center;
+}
+
+.button{
+    background-color: #050505;
+    color: #e2f3ca;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.5rem;
+    font-style: inherit;
+    cursor: pointer;
+    margin-top: 20px;
+    transition: all 0.5s;
+}
+
+.button:hover{
+    cursor: pointer;
+    background-color: #61793b;
+}
+
+.under_image{
+    background-color: #94a97a;
+    font-size:140%;
+    padding: 5px;
+    border-radius: 3px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0px 5px 10px 0 rgba(0,0,0, 0.8);
+}
+
+.podpis p{
+    padding: 20px;
+}
+
+.main{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+/*zagrozone gatunki*/
+
+.wprowadzenie{
+    padding: 10px 15px;
+    text-align: justify;
+    font-size:1.4rem;
+    border-bottom-style: solid;
+    letter-spacing: 1px;
+    margin: 30px;
+
+}
+
+.wprowadzenie h2{
+    margin-bottom: 10px;
+    text-align: center;
+
+}
+
+.rosliny{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.gatunek{
+    box-shadow: 0 5px 10px 0 rgba(0,0,0, 0.8);
+    margin: 30px 30px;
+    padding: 5px;
+    flex-basis: 350px;
+    background: linear-gradient(#7c887b 50%, rgba(148, 162, 133, 0.64) 75%, rgba(90, 115, 60, 0.51) 100%);
+}
+
+.gatunek img {
+    width: 350px;
+    height: 300px;
+    object-fit: fill;
+    border-radius: 5px;
+}
+
+.gatunek p{
+    text-align: center;
+    padding: 10px 20px;
+    font-style: oblique;
+    font-size: 1.5rem;
+
+}
+/*zagrozone gatunki*/
+
+/*zwiedzanie*/
+.zwiedzanie{
+    padding: 10px 15px;
+    font-size:1.4rem;
+    border-style: solid;
+    letter-spacing: 1px;
+    margin: auto;
+    background-color: #94a285;
+
+}
+
+.img{
+    flex:1 1 40rem;
+}
+
+.img img{
+    width: 100%;
+    padding: 1rem;
+}
+
+.zwiedzanie-content h2{
+    margin-bottom: 15px;
+    text-align: center;
+
+}
+
+.zwiedzanie-content{
+    color:black;
+    margin: 1rem;
+}
+
+
+.zwiedzanie-content input, textarea {
+    padding: .8rem;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+}
+
+.dane input{
+    width: 100%;
+}
+
+.zwiedzanie-content label{
+    font-weight: bolder;
+}
+
+.preference label{
+    font-weight: normal;
+    font-size:80%;
+}
+
+.preference p{
+    font-weight: bolder;
+}
+
+.data p{
+    font-weight: bolder;
+}
+
+.all{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: 15px;
+
+}
+
+/*zwiedzanie*/
+
+
+/*kontakt*/
+
+.wydarzenia{
+    display: flex;
+    flex-wrap:wrap;
+    width: 90%;
+    margin: 10px auto 50px;
+
+}
+
+.kontakt{
+    border-style:solid;
+    flex:1 1 30rem;
+    letter-spacing: 1px;
+    box-shadow: 0 5px 10px 0 rgba(0,0,0, 0.8);
+    margin: 80px;
+    margin-top:25px;
+    margin-bottom:25px;
+    width:50%;
+    height: 100%;
+    padding: 30px;
+    background-color: darkgray;
+}
+
+table {
+    width: 80%;
+    margin: auto;
+}
+
+td, th {
+    border: 1px solid #000000;
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #9ec280;
+}
+
+tr:nth-child(odd) {
+    background-color: rgba(250, 247, 247, 0.33);
+}
+
+.tabela{
+    margin: 25px;
+}
+
+.tabela caption{
+    margin-bottom: 15px;
+}
+
+@media(min-width: 700px) {
+    .menu .icon {
+        display: none;
+    }
+
+    .menu a {
+        display: block;
+    }
+}

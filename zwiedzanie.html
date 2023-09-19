@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Aleksandra Jaroszek">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="icon" href="nature.png">
+    <title>BOTANIC PARK</title>
+
+</head>
+<body>
+<header>
+
+    <nav class="menu" id = 'menu'>
+        <a href="javascript:void(0);" class="icon" onclick="Menu()">
+            <i class="fa fa-bars"></i>
+        </a>
+        <a href="index.html" > Home </a>
+        <a href="gatunki.html" > Zagrożone gatunki</a>
+        <a href="zwiedzanie.html" class="active"> Zwiedzanie</a>
+        <a href="kontakt.html" > Kontakt </a>
+        <div class="logo">
+                <img src="nature.png" width="40" height="25">
+        </div>
+
+    </nav>
+
+</header>
+
+<div class="all">
+    <div class="img">
+        <img src="ogrod.jpg">
+    </div>
+    <div class="zwiedzanie">
+        <div class="zwiedzanie-content">
+            <div class="dane">
+            <h2>Formularz zgłoszeniowy</h2>
+            <p>Wypełnij formularz. Odpowiedź wyślemy na podany adres e-mail.</p><br>
+
+                <form>
+                    <label for="name">Imię</label><br>
+                    <input type="text" name="imie" id="name" placeholder="Twoje imię"><br>
+
+                    <label for="email">E-mail</label><br>
+                    <input type="email" name="mail" id="email" placeholder="Twój e-mail"><br>
+                </form>
+            </div>
+            <div class="preference">
+                <br><p>Wybierz preferowany rodzaj zwiedzania:</p>
+                <form>
+
+                    <input type="radio" id="withguide" name="guide">
+                    <label for="withguide">z przewodnikiem</label><br>
+
+                    <input type="radio" id="withoutguide" name="guide">
+                    <label for="withoutguide">bez przewodnika</label><br>
+
+                    <input type="radio" id="withownguide" name="guide">
+                    <label for="withownguide">z własnym przewodnikiem</label>
+
+                </form>
+            </div>
+            <div class="data">
+                <br><p>Wybierz interesującą cię datę.</p>
+                <form>
+                    <input type="date" id="date"><br>
+                    <div class="click1">
+                        <input type="submit" value="Wyślij" class="button">
+                    </div>
+                </form>
+            </div>
+            </div>
+        </div>
+
+
+</div>
+
+<script type="text/javascript" src="script.js"></script>
+
+<footer>
+    <p>Ogród Botaniczny BOTANIC PARK.</p>
+    <p>Copyright © 2021 Wszelkie prawa zastrzeżone.</p>
+</footer>
+</body>
+</html>
